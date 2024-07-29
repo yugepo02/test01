@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    1正方形 2長方形 3台形 4平行四辺形 5ひし形 6直角三角形 7二等辺三角形 8円形 9半円形 10三角形
+    <br>
+    <p>図形番号 <input type="text" id="nub"></p>
+    <br>
+    <p>x <input type="text" id="x"></p>
+    <br>
+    <p>y <input type="text" id="y"></p>
+    <br>
+    <p>高さ <input type="text" id="tall"></p>
+    <br>
+    <p>
+        単位:
+        <select id="unit">
+            <option value="m">m</option>
+            <option value="cm">cm</option>
+            <option value="mm">mm</option>
+        </select>
+    </p>
+    <br>
+    <p id="tex"><input type="checkbox" id="s"> <input type="text" id="angle" disabled> 高さ</p>
+    <br>
+    <button onclick="calculateArea()">Calculate</button>
+    <p id="result"></p>
+</body>
+<script src="main.js"></script>
+</html>
